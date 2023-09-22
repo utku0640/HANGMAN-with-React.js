@@ -1,0 +1,16 @@
+export const wordList = [
+  "HANGMAN",
+  "JAVASCRIPT",
+  "MOUSE",
+  "COMPUTER",
+  "BLOG",
+  "DEVELOPER",
+  "GITHUB",
+  "REACT",
+  "YOUTUBE",
+  "PHONE",
+  "NISSANGTR",
+  "REPOSITORY",
+  "PLEASE",
+  "FOLLOW",
+];

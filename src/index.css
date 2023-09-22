@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hangman {
+  margin: 100px;
+  width: 450px;
+  height: 650px;
+  border: 5px solid black;
+  position: relative;
+}
+.bottom_side {
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+  width: 200px;
+  height: 10px;
+  background-color: black;
+}
+.vertical_side {
+  position: absolute;
+  bottom: 100px;
+  left: 130px;
+  width: 10px;
+  height: 400px;
+  background-color: black;
+}
+.horizontal_side {
+  position: absolute;
+  bottom: 500px;
+  left: 130px;
+  width: 180px;
+  height: 10px;
+  background-color: black;
+}
+.small_vertical_side {
+  position: absolute;
+  bottom: 450px;
+  left: 300px;
+  width: 10px;
+  height: 50px;
+  background-color: black;
+}
+.head {
+  position: absolute;
+  left: 270px;
+  bottom: 380px;
+  width: 70px;
+  height: 70px;
+  border: 7px solid black;
+  border-radius: 50%;
+}
+.body {
+  position: absolute;
+  left: 300px;
+  bottom: 281px;
+  width: 10px;
+  height: 100px;
+  background-color: black;
+}
+.right_arm {
+  position: absolute;
+  left: 330px;
+  bottom: 310px;
+  width: 10px;
+  height: 75px;
+  background-color: black;
+  rotate: 50deg;
+}
+.left_arm {
+  position: absolute;
+  left: 270px;
+  bottom: 310px;
+  width: 10px;
+  height: 75px;
+  background-color: black;
+  rotate: 130deg;
+}
+.right_leg {
+  position: absolute;
+  left: 320px;
+  bottom: 212px;
+  width: 10px;
+  height: 75px;
+  background-color: black;
+  rotate: 150deg;
+}
+.left_leg {
+  position: absolute;
+  left: 280px;
+  bottom: 212px;
+  width: 10px;
+  height: 75px;
+  background-color: black;
+  rotate: 30deg;
+}
+
+.alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-top: 50px;
+}
+.letter {
+  background-color: aqua;
+  margin: 5px;
+  padding: 10px;
+}
+.active_letter {
+  background-color: green;
+  margin: 5px;
+  padding: 10px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.inactive_letter {
+  background-color: grey;
+  margin: 5px;
+  padding: 10px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
